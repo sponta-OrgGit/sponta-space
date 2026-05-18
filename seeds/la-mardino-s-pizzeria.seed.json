@@ -1,0 +1,48 @@
+{
+  "venue_id": "la-mardino-s-pizzeria",
+  "name": "La Mardino's pizzeria",
+  "city": "Helsinki",
+  "address": null,
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.18159,
+  "lng": 24.9552097,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Th 10:00-22:00; Fr 10:00-23:00; Sa 11:00-23:00; Su 11:00-22:00",
+  "cuisine": [
+    "pizza"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 10994581741,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 40,
+    "reasons": [
+      "weekday_opening_hours"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:34.800Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

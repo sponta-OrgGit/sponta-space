@@ -1,0 +1,46 @@
+{
+  "venue_id": "bambu-sushi",
+  "name": "Bambu Sushi",
+  "city": "Helsinki",
+  "address": "Helsinginkatu 4b, 00500 Helsinki",
+  "postal_code": "00500",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1873527,
+  "lng": 24.9591034,
+  "website": "",
+  "phone": "",
+  "email": "wearebambusushi@gmail.com",
+  "opening_hours": "Mo-Sa 11:00-02:00; Su 12:00-22:00",
+  "cuisine": [
+    "sushi"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": "yes"
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 283300371,
+    "check_date": "2025-03-01"
+  },
+  "marketing_priority": {
+    "score": 0,
+    "reasons": []
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:25.846Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

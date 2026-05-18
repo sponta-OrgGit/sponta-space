@@ -1,0 +1,49 @@
+{
+  "venue_id": "ho-ting",
+  "name": "Ho Ting",
+  "city": "Helsinki",
+  "address": "Miina Sillanpään katu 8, Helsinki",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1795487,
+  "lng": 24.9544737,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Th 11:00-20:00; Fr 11:00-15:00; Sa,Su 12:00-19:00",
+  "cuisine": [
+    "chinese"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "yes",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1529213452,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 50,
+    "reasons": [
+      "weekday_opening_hours",
+      "takeaway_or_delivery"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:32.317Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

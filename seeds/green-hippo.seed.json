@@ -1,0 +1,65 @@
+{
+  "venue_id": "green-hippo",
+  "name": "Green Hippo",
+  "city": "Helsinki",
+  "address": "Fleminginkatu 10, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1856509,
+  "lng": 24.9527182,
+  "website": "https://www.greenhippocafe.rocks/kallio",
+  "phone": "+358505511652",
+  "email": "feedme@greenhippocafe.rocks",
+  "opening_hours": "Mo-Th 08:00-21:00; Fr 08:00-22:00; Sa 09:00-22:00",
+  "cuisine": [
+    "salad",
+    "pasta"
+  ],
+  "diet": {
+    "vegan": "yes",
+    "vegetarian": "yes"
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 8852655398,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://static.wixstatic.com/media/d7c579_d02a83d88034436fa06347eae121a5f0%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/d7c579_d02a83d88034436fa06347eae121a5f0%7Emv2.png",
+    "checked_at": "2026-01-23T16:17:08.181Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "green-hippo__primary",
+      "canonical_url": "https://www.greenhippocafe.rocks/kallio",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:17:08.181Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://static.wixstatic.com/media/d7c579_d02a83d88034436fa06347eae121a5f0%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/d7c579_d02a83d88034436fa06347eae121a5f0%7Emv2.png"
+    }
+  ],
+  "lounaat_info_url": ""
+}

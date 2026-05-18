@@ -1,0 +1,44 @@
+{
+  "venue_id": "cafe-cucca",
+  "name": "Café Cucca",
+  "city": "Helsinki",
+  "address": "Kolmas linja 12, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.18242,
+  "lng": 24.948803,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "We-Fr 09:00-17:00; Sa-Su 10:00-16:00",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 5950615655,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 0,
+    "reasons": []
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:27.529Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

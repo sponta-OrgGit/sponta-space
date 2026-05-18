@@ -1,0 +1,61 @@
+{
+  "venue_id": "nesteen-kahvio",
+  "name": "Nesteen kahvio",
+  "city": "Helsinki",
+  "address": "Sörnäisten rantatie 21, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1834425,
+  "lng": 24.962522,
+  "website": "https://www.neste.fi/",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1530480605,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:36.716Z",
+    "last_http_status": 200,
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "nesteen-kahvio__primary",
+      "canonical_url": "https://www.neste.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": ""
+}

@@ -1,0 +1,46 @@
+{
+  "venue_id": "mizore",
+  "name": "Mizore",
+  "city": "Helsinki",
+  "address": "Vilhonvuorenkatu 7-9, 00500 Helsinki",
+  "postal_code": "00500",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1872486,
+  "lng": 24.965043,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [
+    "sushi"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 8831560574,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 0,
+    "reasons": []
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:36.480Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

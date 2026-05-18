@@ -1,0 +1,52 @@
+{
+  "venue_id": "belmont",
+  "name": "Belmont",
+  "city": "Helsinki",
+  "address": "Hakaniemenkatu 7, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1788939,
+  "lng": 24.9546317,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Tu 11:00-14:00; We-Th 11:00-14:00, 16:30-22:00; Fr 11:00-14:00, 16:30-23:00; Sa 16:00-23:00",
+  "cuisine": [
+    "italian",
+    "pizza",
+    "new_york",
+    "american",
+    "pasta"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1533456538,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 40,
+    "reasons": [
+      "weekday_opening_hours"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:26.327Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

@@ -1,0 +1,1135 @@
+{
+  "file": "kallio_venues_raw.json",
+  "generator": "Overpass API 0.7.62.8 e802775f",
+  "osm_timestamp": "2026-01-22T13:14:47Z",
+  "element_count": 134,
+  "fields": {
+    "type": {
+      "count": 134,
+      "types": {
+        "string": 134
+      },
+      "examples": [
+        "node"
+      ]
+    },
+    "id": {
+      "count": 134,
+      "types": {
+        "number": 134
+      },
+      "examples": [
+        76474077,
+        76474078,
+        76474225
+      ]
+    },
+    "lat": {
+      "count": 134,
+      "types": {
+        "number": 134
+      },
+      "examples": [
+        60.1790197,
+        60.1789718,
+        60.1785669
+      ]
+    },
+    "lon": {
+      "count": 134,
+      "types": {
+        "number": 134
+      },
+      "examples": [
+        24.9476688,
+        24.9474542,
+        24.9475741
+      ]
+    },
+    "tags.addr:city": {
+      "count": 91,
+      "types": {
+        "string": 91
+      },
+      "examples": [
+        "Helsinki"
+      ]
+    },
+    "tags.addr:country": {
+      "count": 38,
+      "types": {
+        "string": 38
+      },
+      "examples": [
+        "FI"
+      ]
+    },
+    "tags.addr:housenumber": {
+      "count": 113,
+      "types": {
+        "string": 113
+      },
+      "examples": [
+        "6",
+        "5",
+        "18-20"
+      ]
+    },
+    "tags.addr:postcode": {
+      "count": 87,
+      "types": {
+        "string": 87
+      },
+      "examples": [
+        "00530",
+        "00500",
+        "00510"
+      ]
+    },
+    "tags.addr:street": {
+      "count": 114,
+      "types": {
+        "string": 114
+      },
+      "examples": [
+        "Säästöpankinranta",
+        "Paasivuorenkatu",
+        "Siltasaarenkatu"
+      ]
+    },
+    "tags.amenity": {
+      "count": 134,
+      "types": {
+        "string": 134
+      },
+      "examples": [
+        "restaurant",
+        "fast_food",
+        "cafe"
+      ]
+    },
+    "tags.contact:instagram": {
+      "count": 9,
+      "types": {
+        "string": 9
+      },
+      "examples": [
+        "https://www.instagram.com/graniittilinna/",
+        "https://www.instagram.com/juttutupa/",
+        "https://www.instagram.com/flat14_helsinki/"
+      ]
+    },
+    "tags.diet:halal": {
+      "count": 68,
+      "types": {
+        "string": 68
+      },
+      "examples": [
+        "no"
+      ]
+    },
+    "tags.diet:kosher": {
+      "count": 68,
+      "types": {
+        "string": 68
+      },
+      "examples": [
+        "no",
+        "yes"
+      ]
+    },
+    "tags.email": {
+      "count": 24,
+      "types": {
+        "string": 24
+      },
+      "examples": [
+        "graniittilinna@graniittiravintolat.fi",
+        "juttutupa@graniittiravintolat.fi",
+        "wearebambusushi@gmail.com"
+      ]
+    },
+    "tags.facebook": {
+      "count": 3,
+      "types": {
+        "string": 3
+      },
+      "examples": [
+        "https://www.facebook.com/graniittilinna/",
+        "https://www.facebook.com/juttutupa/",
+        "https://www.facebook.com/ipikulmakuppila"
+      ]
+    },
+    "tags.name": {
+      "count": 133,
+      "types": {
+        "string": 133
+      },
+      "examples": [
+        "Graniittilinna",
+        "Juttutuvan ruokasali",
+        "Paasiravintola"
+      ]
+    },
+    "tags.opening_hours": {
+      "count": 89,
+      "types": {
+        "string": 89
+      },
+      "examples": [
+        "Tu-Fr 16:00-22:00; Sa 14:00-22:00",
+        "Mo 10:00-24:00; Tu-Th 10:00-01:00; Fr-Sa 10:00-03:00; Su 12:00-23:00",
+        "Mo-Th 11:00-22:00; Fr 11:00-23:00; Sa 12:00-23:00; Su 12:00-20:00"
+      ]
+    },
+    "tags.payment:credit_cards": {
+      "count": 59,
+      "types": {
+        "string": 59
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.payment:debit_cards": {
+      "count": 59,
+      "types": {
+        "string": 59
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.phone": {
+      "count": 44,
+      "types": {
+        "string": 44
+      },
+      "examples": [
+        "+358 20 742 4250",
+        "+358 10 7664120",
+        "358403689744"
+      ]
+    },
+    "tags.start_date": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "2004-03-26",
+        "2024"
+      ]
+    },
+    "tags.website": {
+      "count": 78,
+      "types": {
+        "string": 78
+      },
+      "examples": [
+        "https://www.graniittilinna.com",
+        "https://www.juttutupa.fi/",
+        "https://www.paasitorni.fi/tilat/paasiravintola/"
+      ]
+    },
+    "tags.wheelchair": {
+      "count": 29,
+      "types": {
+        "string": 29
+      },
+      "examples": [
+        "limited",
+        "no",
+        "yes"
+      ]
+    },
+    "name": {
+      "count": 134,
+      "types": {
+        "string": 133,
+        "null": 1
+      },
+      "examples": [
+        "Graniittilinna",
+        "Juttutuvan ruokasali",
+        "Paasiravintola"
+      ]
+    },
+    "city": {
+      "count": 134,
+      "types": {
+        "string": 91,
+        "null": 43
+      },
+      "examples": [
+        "Helsinki",
+        null
+      ]
+    },
+    "website": {
+      "count": 134,
+      "types": {
+        "string": 80,
+        "null": 54
+      },
+      "examples": [
+        "https://www.graniittilinna.com",
+        "https://www.juttutupa.fi/",
+        "https://www.paasitorni.fi/tilat/paasiravintola/"
+      ]
+    },
+    "website_menu": {
+      "count": 134,
+      "types": {
+        "null": 132,
+        "string": 2
+      },
+      "examples": [
+        null,
+        "https://www.uyghurnoodlehouse.com/menu",
+        "https://www.fafas.fi/Menu"
+      ]
+    },
+    "note": {
+      "count": 134,
+      "types": {
+        "null": 127,
+        "string": 7
+      },
+      "examples": [
+        null,
+        "Lounasbuffet arkisin klo 11:00 - 15:00",
+        "Cafe and Food cooperative"
+      ]
+    },
+    "instagram": {
+      "count": 134,
+      "types": {
+        "string": 9,
+        "null": 125
+      },
+      "examples": [
+        "https://www.instagram.com/graniittilinna/",
+        "https://www.instagram.com/juttutupa/",
+        null
+      ]
+    },
+    "tags.lunch": {
+      "count": 15,
+      "types": {
+        "string": 15
+      },
+      "examples": [
+        "yes",
+        "Mo-Thu 11:00-16:00;Fr 11:00-15:00"
+      ]
+    },
+    "tags.opening_hours:brunch": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "Mo-Fr 10:30-14:00",
+        "Sa-Su 10:00-14:00"
+      ]
+    },
+    "tags.cuisine": {
+      "count": 78,
+      "types": {
+        "string": 78
+      },
+      "examples": [
+        "italian",
+        "kebab",
+        "sandwich"
+      ]
+    },
+    "tags.diet:vegan": {
+      "count": 25,
+      "types": {
+        "string": 25
+      },
+      "examples": [
+        "yes",
+        "only",
+        "no"
+      ]
+    },
+    "tags.diet:vegetarian": {
+      "count": 26,
+      "types": {
+        "string": 26
+      },
+      "examples": [
+        "yes",
+        "only",
+        "no"
+      ]
+    },
+    "tags.indoor_seating": {
+      "count": 28,
+      "types": {
+        "string": 28
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.outdoor_seating": {
+      "count": 37,
+      "types": {
+        "string": 37
+      },
+      "examples": [
+        "no",
+        "yes",
+        "parklet"
+      ]
+    },
+    "tags.ref": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "883"
+      ]
+    },
+    "tags.toilets:wheelchair": {
+      "count": 3,
+      "types": {
+        "string": 3
+      },
+      "examples": [
+        "yes",
+        "no"
+      ]
+    },
+    "tags.url": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "http://www.rosso.fi/hki_ympyratalo.html"
+      ]
+    },
+    "tags.brand": {
+      "count": 13,
+      "types": {
+        "string": 13
+      },
+      "examples": [
+        "Subway",
+        "Picnic",
+        "Hesburger"
+      ]
+    },
+    "tags.brand:wikidata": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "Q244457",
+        "Q1276832",
+        "Q1628625"
+      ]
+    },
+    "tags.level": {
+      "count": 29,
+      "types": {
+        "string": 29
+      },
+      "examples": [
+        "0",
+        "1;2",
+        "1"
+      ]
+    },
+    "tags.takeaway": {
+      "count": 12,
+      "types": {
+        "string": 12
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.veikkaus": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.office": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "association",
+        "cooperative"
+      ]
+    },
+    "tags.check_date:opening_hours": {
+      "count": 5,
+      "types": {
+        "string": 5
+      },
+      "examples": [
+        "2023-06-19",
+        "2024-05-25",
+        "2022-08-09"
+      ]
+    },
+    "tags.air_conditioning": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.check_date": {
+      "count": 37,
+      "types": {
+        "string": 37
+      },
+      "examples": [
+        "2023-09-23",
+        "2025-03-01",
+        "2024-09-17"
+      ]
+    },
+    "tags.internet_access": {
+      "count": 5,
+      "types": {
+        "string": 5
+      },
+      "examples": [
+        "no",
+        "wlan"
+      ]
+    },
+    "tags.operator": {
+      "count": 6,
+      "types": {
+        "string": 6
+      },
+      "examples": [
+        "Serpelo Tmi",
+        "Helsingintien Burger Oy",
+        "Hakaniemen Burger Oy"
+      ]
+    },
+    "tags.reservation": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "yes",
+        "no"
+      ]
+    },
+    "tags.smoking": {
+      "count": 3,
+      "types": {
+        "string": 3
+      },
+      "examples": [
+        "no"
+      ]
+    },
+    "tags.source": {
+      "count": 5,
+      "types": {
+        "string": 5
+      },
+      "examples": [
+        "survey",
+        "Hesburger import",
+        "local knowledge"
+      ]
+    },
+    "tags.toilets": {
+      "count": 4,
+      "types": {
+        "string": 4
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.floor": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "1"
+      ]
+    },
+    "tags.takeaway:covid19": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "only"
+      ]
+    },
+    "tags.diet:meat": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.diet:pescetarian": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.address": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "Hämeentie 7"
+      ]
+    },
+    "tags.branch": {
+      "count": 10,
+      "types": {
+        "string": 10
+      },
+      "examples": [
+        "Kallio",
+        "Hakaniemi",
+        "Kallio Porthaninkatu"
+      ]
+    },
+    "tags.brand:wikipedia": {
+      "count": 3,
+      "types": {
+        "string": 3
+      },
+      "examples": [
+        "en:Hesburger",
+        "en:McDonald's",
+        "en:Subway (restaurant)"
+      ]
+    },
+    "tags.date": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "2008-08-29"
+      ]
+    },
+    "tags.drive_through": {
+      "count": 6,
+      "types": {
+        "string": 6
+      },
+      "examples": [
+        "no"
+      ]
+    },
+    "tags.internet_access:fee": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "no",
+        "customers"
+      ]
+    },
+    "tags.payment:cash": {
+      "count": 6,
+      "types": {
+        "string": 6
+      },
+      "examples": [
+        "yes",
+        "no"
+      ]
+    },
+    "tags.addr:housename": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "Areenan talo"
+      ]
+    },
+    "tags.old_name": {
+      "count": 5,
+      "types": {
+        "string": 5
+      },
+      "examples": [
+        "Cafe Java",
+        "Sen Chay",
+        "Klandestina"
+      ]
+    },
+    "tags.contact:facebook": {
+      "count": 4,
+      "types": {
+        "string": 4
+      },
+      "examples": [
+        "https://www.facebook.com/flathelsinki/",
+        "https://www.facebook.com/profile.php?id=100041258275901",
+        "https://www.facebook.com/noahcafefinland/"
+      ]
+    },
+    "tags.established": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "2014"
+      ]
+    },
+    "tags.note": {
+      "count": 5,
+      "types": {
+        "string": 5
+      },
+      "examples": [
+        "Lounasbuffet arkisin klo 11:00 - 15:00",
+        "Suljettu helmikuussa 2020. Avataan taas maaliskuun alkupuolella.",
+        "2. kerros"
+      ]
+    },
+    "tags.opening_hours:lunch": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "Mo-Fr 11:00-15:00"
+      ]
+    },
+    "tags.organic": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.wheelchair:description": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "Former Galleria Keidas (closed in 2016)."
+      ]
+    },
+    "tags.highchair": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.name:ru": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "МакДональдс"
+      ]
+    },
+    "tags.lunch:opening_hours": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "Mo-Fr 11:00-14:30"
+      ]
+    },
+    "tags.guard:operator": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "Falck"
+      ]
+    },
+    "tags.addr:unit": {
+      "count": 6,
+      "types": {
+        "string": 6
+      },
+      "examples": [
+        "B",
+        "3. kerros",
+        "A2"
+      ]
+    },
+    "tags.internet_access:ssid": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "lemongrass"
+      ]
+    },
+    "tags.live_music": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.alt_name": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "Bites Burgers",
+        "LieMi"
+      ]
+    },
+    "tags.traffic_signals:foot": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.indoor_seating:comfort": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "chair"
+      ]
+    },
+    "tags.contact:email": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "sen_chay@yahoo.co.uk",
+        "info@waybakeri.fi"
+      ]
+    },
+    "tags.contact:phone": {
+      "count": 3,
+      "types": {
+        "string": 3
+      },
+      "examples": [
+        "+358 40 835 2253",
+        "+35845 2227745",
+        "+358504702388"
+      ]
+    },
+    "tags.drink:club-mate": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.drinking_water": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.contact:website": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "http://www.omamaa.fi/",
+        "https://www.uyghurnoodlehouse.com/"
+      ]
+    },
+    "tags.description": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "Cafe and Food cooperative",
+        "Lounaskahvila"
+      ]
+    },
+    "tags.identity": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "yes;solidarity_economy;commons"
+      ]
+    },
+    "tags.interaction": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "diy_and_dit;buying_and_selling;cousing"
+      ]
+    },
+    "tags.microroasting": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.provides": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "food+drink;culture"
+      ]
+    },
+    "tags.topic": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "food+drink;culture"
+      ]
+    },
+    "tags.opening_hours:drive_through": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "Mo-Fr 08:00-18:00; Sa 11:00-16:00; Su off"
+      ]
+    },
+    "tags.end_date": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "2023-05-01"
+      ]
+    },
+    "tags.opening_hours:signed": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "no"
+      ]
+    },
+    "tags.drink:wine": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.toilets:access": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "customers"
+      ]
+    },
+    "tags.full_name": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "La Torrefazione Hakaniemi"
+      ]
+    },
+    "tags.opening_hours:covid19": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "restricted"
+      ]
+    },
+    "tags.short_name": {
+      "count": 4,
+      "types": {
+        "string": 4
+      },
+      "examples": [
+        "Torre",
+        "Pien",
+        "Adzika"
+      ]
+    },
+    "tags.microbrewery": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.diet:lactose_free": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.image": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "https://ravinteliolkkari.fi/wp-content/uploads/elementor/thumbs/Ravinteli_Olkkari-Kuva_002-ralco4qgmvemd9ypnioa4f9f5x8jh5qmlnomf5ew2o.jpg"
+      ]
+    },
+    "tags.lgbtq": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "welcome"
+      ]
+    },
+    "tags.lgbtq:signed": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.location": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "underground"
+      ]
+    },
+    "tags.check_date:diet:vegetarian": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "2025-08-02",
+        "2025-05-30"
+      ]
+    },
+    "tags.changing_table:fee": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "no"
+      ]
+    },
+    "tags.check_date:diet:vegan": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "2025-05-30"
+      ]
+    },
+    "tags.website:menu": {
+      "count": 2,
+      "types": {
+        "string": 2
+      },
+      "examples": [
+        "https://www.uyghurnoodlehouse.com/menu",
+        "https://www.fafas.fi/Menu"
+      ]
+    },
+    "tags.bar": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "yes"
+      ]
+    },
+    "tags.capacity": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "15"
+      ]
+    }
+  }
+}

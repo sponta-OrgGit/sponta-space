@@ -1,0 +1,61 @@
+{
+  "venue_id": "koko-jazz-club",
+  "name": "Koko Jazz Club",
+  "city": "Helsinki",
+  "address": "Hämeentie 3, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1806797,
+  "lng": 24.9534891,
+  "website": "https://www.kokojazz.fi/",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1847824623,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:34.300Z",
+    "last_http_status": 200,
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "koko-jazz-club__primary",
+      "canonical_url": "https://www.kokojazz.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": ""
+}

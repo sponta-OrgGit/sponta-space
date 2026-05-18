@@ -1,0 +1,64 @@
+{
+  "venue_id": "kakkugalleria",
+  "name": "Kakkugalleria",
+  "city": "Helsinki",
+  "address": "Siltasaarenkatu 13, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1814381,
+  "lng": 24.9494475,
+  "website": "https://www.kakkugalleria.com/",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-18:00; Su 12:00-17:00",
+  "cuisine": [
+    "bakery"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": "yes"
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 11156411288,
+    "check_date": "2025-08-02"
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:33.316Z",
+    "last_http_status": 200,
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "kakkugalleria__primary",
+      "canonical_url": "https://www.kakkugalleria.com/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": ""
+}

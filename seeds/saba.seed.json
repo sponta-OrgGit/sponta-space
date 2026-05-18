@@ -1,0 +1,64 @@
+{
+  "venue_id": "saba",
+  "name": "Saba",
+  "city": "Helsinki",
+  "address": "Hämeentie 7, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1816981,
+  "lng": 24.9555196,
+  "website": "http://www.ravintolasaba.fi/",
+  "phone": "+358 9 773 3998",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [
+    "indian",
+    "pizza"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 283309197,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.lounaat.info/lounas/ravintola-saba/helsinki",
+    "checked_at": "2026-01-23T16:49:42.730Z",
+    "last_http_status": 200,
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "saba__primary",
+      "canonical_url": "http://www.ravintolasaba.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": "https://www.lounaat.info/lounas/ravintola-saba/helsinki"
+}

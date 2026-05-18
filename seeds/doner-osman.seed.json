@@ -1,0 +1,64 @@
+{
+  "venue_id": "doner-osman",
+  "name": "Döner Osman",
+  "city": "Helsinki",
+  "address": "Siltasaarenkatu 11, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1808222,
+  "lng": 24.949884,
+  "website": "https://dönerosman.fi/",
+  "phone": "358403689744",
+  "email": "",
+  "opening_hours": "Mo-Th 10:30-22:30; Fr 10:30-03:00; Sa 11:00-03:00; Su 12:00-21:00",
+  "cuisine": [
+    "kebab"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 92762548,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:29.017Z",
+    "last_http_status": 200,
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "doner-osman__primary",
+      "canonical_url": "https://dönerosman.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": ""
+}

@@ -1,0 +1,51 @@
+{
+  "venue_id": "sherpa-food-n-bar",
+  "name": "Sherpa Food N' Bar",
+  "city": "Helsinki",
+  "address": "Harjutori 2, 00500 Helsinki",
+  "postal_code": "00500",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1872658,
+  "lng": 24.959094,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 11:00-24:00; Su 11:00-24:00",
+  "cuisine": [
+    "asian"
+  ],
+  "diet": {
+    "vegan": "yes",
+    "vegetarian": "yes"
+  },
+  "services": {
+    "takeaway": "yes",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 4391669007,
+    "check_date": "2023-04-22"
+  },
+  "marketing_priority": {
+    "score": 50,
+    "reasons": [
+      "weekday_opening_hours",
+      "cuisine_hint",
+      "bar_pub_signal",
+      "takeaway_or_delivery"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:43.483Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

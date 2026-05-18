@@ -1,0 +1,48 @@
+{
+  "venue_id": "cafe-kim",
+  "name": "Cafe Kim",
+  "city": "Helsinki",
+  "address": "Miina Sillanpään katu 1",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1799112,
+  "lng": 24.952767,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Fr 08:00-20:00; Sa, Su 10:00-19:00",
+  "cuisine": [
+    "vietnamese"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 10777471423,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 40,
+    "reasons": [
+      "weekday_opening_hours"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:28.016Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

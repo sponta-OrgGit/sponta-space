@@ -1,0 +1,46 @@
+{
+  "venue_id": "oma-maa",
+  "name": "Oma maa",
+  "city": "Helsinki",
+  "address": "Kaarlenkatu 15, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1866764,
+  "lng": 24.9517356,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Tu-Fr 07:00-17:00; Sa-Su 09:00-18:00",
+  "cuisine": [
+    "international"
+  ],
+  "diet": {
+    "vegan": "yes",
+    "vegetarian": "yes"
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 3511936286,
+    "check_date": "2024-08-13"
+  },
+  "marketing_priority": {
+    "score": 0,
+    "reasons": []
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.lounaat.info/lounas/oma-maa/helsinki",
+    "checked_at": "2026-01-23T16:49:37.453Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": "https://www.lounaat.info/lounas/oma-maa/helsinki"
+}

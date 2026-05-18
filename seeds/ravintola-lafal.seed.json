@@ -1,0 +1,49 @@
+{
+  "venue_id": "ravintola-lafal",
+  "name": "Ravintola Lafal",
+  "city": "Helsinki",
+  "address": "Hämeentie 6, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1807234,
+  "lng": 24.9517872,
+  "website": "",
+  "phone": "+358452039830",
+  "email": "",
+  "opening_hours": "Mo-Th 10:30-22:00; Fr 11:00-23:30; Sa 11:00-24:00, Su 12:00-21:00",
+  "cuisine": [
+    "lebanese"
+  ],
+  "diet": {
+    "vegan": "yes",
+    "vegetarian": "yes"
+  },
+  "services": {
+    "takeaway": "yes",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 207108089,
+    "check_date": "2023-09-23"
+  },
+  "marketing_priority": {
+    "score": 50,
+    "reasons": [
+      "weekday_opening_hours",
+      "takeaway_or_delivery"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:41.171Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

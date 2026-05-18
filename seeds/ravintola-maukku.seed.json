@@ -1,0 +1,63 @@
+{
+  "venue_id": "ravintola-maukku",
+  "name": "Ravintola Maukku",
+  "city": "Helsinki",
+  "address": "Hämeentie 26",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1830878,
+  "lng": 24.9575992,
+  "website": "https://maukku.fi/",
+  "phone": "+358 50 5051794",
+  "email": "moi@maukku.fi",
+  "opening_hours": "Mo,Su off; Tu-Sa 17:00-24:00",
+  "cuisine": [
+    "french"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 11991579775,
+    "check_date": "2024-09-15"
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:41.414Z",
+    "last_http_status": 200,
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "ravintola-maukku__primary",
+      "canonical_url": "https://maukku.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": ""
+}

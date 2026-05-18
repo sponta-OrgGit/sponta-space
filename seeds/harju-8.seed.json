@@ -1,0 +1,61 @@
+{
+  "venue_id": "harju-8",
+  "name": "Harju 8",
+  "city": "Helsinki",
+  "address": "Harjutori 8, 00500 Helsinki",
+  "postal_code": "00500",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1868259,
+  "lng": 24.9577533,
+  "website": "https://harju8.fi/",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 4605384998,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://harju8.fi/lunch/",
+    "checked_at": "2026-01-23T16:30:09.939Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "harju-8__primary",
+      "canonical_url": "https://harju8.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:30:09.940Z",
+        "verified_by": "A4.1.1"
+      },
+      "menu_url": "https://harju8.fi/lunch/"
+    }
+  ],
+  "lounaat_info_url": ""
+}

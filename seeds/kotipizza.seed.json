@@ -1,0 +1,65 @@
+{
+  "venue_id": "kotipizza",
+  "name": "Kotipizza",
+  "city": "Helsinki",
+  "address": "Porthaninkatu 11, Helsinki",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1829785,
+  "lng": 24.9529871,
+  "website": "https://kotipizza.fi/ravintolat/kotipizza-helsinki-kallio-porthaninkatu",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Fr 10:30-22:00; Sa-Su 11:00-22:00",
+  "cuisine": [
+    "pizza"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "yes",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 445381416,
+    "check_date": "2024-09-15"
+  },
+  "marketing_priority": {
+    "score": 70,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website",
+      "takeaway_or_delivery"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.kotipizza.fi/lounas",
+    "checked_at": "2026-01-23T16:31:16.816Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "kotipizza__primary",
+      "canonical_url": "https://kotipizza.fi/ravintolat/kotipizza-helsinki-kallio-porthaninkatu",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:31:16.816Z",
+        "verified_by": "A4.1.1"
+      },
+      "menu_url": "https://www.kotipizza.fi/lounas"
+    }
+  ],
+  "lounaat_info_url": ""
+}

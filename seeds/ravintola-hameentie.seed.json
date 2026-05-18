@@ -1,0 +1,63 @@
+{
+  "venue_id": "ravintola-hameentie",
+  "name": "Ravintola Hämeentie",
+  "city": "Helsinki",
+  "address": "Hämeentie 15, 00500 Helsinki",
+  "postal_code": "00500",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1845637,
+  "lng": 24.9604862,
+  "website": "https://bites.fi/#kallio",
+  "phone": "+358 45 783 52523",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [
+    "burger"
+  ],
+  "diet": {
+    "vegan": "yes",
+    "vegetarian": "yes"
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 2132012212,
+    "check_date": "2024-08-12"
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://bites.fi/wp-content/uploads/2023/05/Bites-Burgers-Menu.pdf",
+    "checked_at": "2026-01-23T16:17:30.010Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "ravintola-hameentie__primary",
+      "canonical_url": "https://bites.fi/#kallio",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:17:30.010Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://bites.fi/wp-content/uploads/2023/05/Bites-Burgers-Menu.pdf"
+    }
+  ],
+  "lounaat_info_url": ""
+}

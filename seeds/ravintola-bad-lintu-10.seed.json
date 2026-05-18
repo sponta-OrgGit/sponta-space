@@ -1,0 +1,44 @@
+{
+  "venue_id": "ravintola-bad-lintu-10",
+  "name": "Ravintola BAD Lintu 10",
+  "city": "Helsinki",
+  "address": "Lintulahdenkuja 10",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1842509,
+  "lng": 24.9636528,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 7217000933,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 0,
+    "reasons": []
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:40.429Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

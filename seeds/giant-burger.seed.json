@@ -1,0 +1,46 @@
+{
+  "venue_id": "giant-burger",
+  "name": "Giant Burger",
+  "city": "Helsinki",
+  "address": "Porthaninkatu 2, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1814587,
+  "lng": 24.949929,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [
+    "burger"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 12983208869,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 0,
+    "reasons": []
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:30.781Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

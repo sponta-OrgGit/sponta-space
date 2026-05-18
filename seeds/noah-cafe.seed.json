@@ -1,0 +1,47 @@
+{
+  "venue_id": "noah-cafe",
+  "name": "Noah Cafe",
+  "city": "Helsinki",
+  "address": "Hämeentie 30",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.183548,
+  "lng": 24.9584184,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [
+    "coffee_shop",
+    "vietnamese"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 5416330921,
+    "check_date": "2025-04-02"
+  },
+  "marketing_priority": {
+    "score": 0,
+    "reasons": []
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:36.956Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

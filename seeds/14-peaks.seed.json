@@ -1,0 +1,61 @@
+{
+  "venue_id": "14-peaks",
+  "name": "14 Peaks",
+  "city": "Helsinki",
+  "address": "Siltasaarenkatu 13, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.181936,
+  "lng": 24.949822,
+  "website": "https://ravintola14peaks.fi/",
+  "phone": "+358503662992",
+  "email": "",
+  "opening_hours": "Mo-Th 11:00-22:00; Fr 11:00-23:00; Sa 12:00-23:00; Su 13:00-21:00",
+  "cuisine": [],
+  "diet": {
+    "vegan": "yes",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 13058623709,
+    "check_date": "2025-08-08"
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://ravintola14peaks.fi/menu",
+    "checked_at": "2026-01-23T16:08:03.641Z"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "14-peaks__primary",
+      "canonical_url": "https://ravintola14peaks.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:08:03.644Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://ravintola14peaks.fi/menu"
+    }
+  ],
+  "lounaat_info_url": ""
+}

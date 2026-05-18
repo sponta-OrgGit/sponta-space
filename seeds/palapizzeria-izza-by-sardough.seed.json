@@ -1,0 +1,48 @@
+{
+  "venue_id": "palapizzeria-izza-by-sardough",
+  "name": "Palapizzeria Izza by Särdough",
+  "city": "Helsinki",
+  "address": "Porthaninkatu 7",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1823492,
+  "lng": 24.9520361,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 12:00-24:00; Su 12:00-21:00",
+  "cuisine": [
+    "pizza"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 11257652312,
+    "check_date": "2024-09-15"
+  },
+  "marketing_priority": {
+    "score": 40,
+    "reasons": [
+      "weekday_opening_hours"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:38.191Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

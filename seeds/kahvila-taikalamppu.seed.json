@@ -1,0 +1,61 @@
+{
+  "venue_id": "kahvila-taikalamppu",
+  "name": "Kahvila Taikalamppu",
+  "city": "Helsinki",
+  "address": "Torkkelinkatu 21, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.184469,
+  "lng": 24.9550781,
+  "website": "https://www.facebook.com/taikalamppu",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 648218677,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.facebook.com/lounas",
+    "checked_at": "2026-01-23T16:30:39.764Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "kahvila-taikalamppu__primary",
+      "canonical_url": "https://www.facebook.com/taikalamppu",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:30:39.764Z",
+        "verified_by": "A4.1.1"
+      },
+      "menu_url": "https://www.facebook.com/lounas"
+    }
+  ],
+  "lounaat_info_url": ""
+}

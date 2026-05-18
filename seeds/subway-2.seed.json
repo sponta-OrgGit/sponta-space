@@ -1,0 +1,48 @@
+{
+  "venue_id": "subway-2",
+  "name": "Subway",
+  "city": "Helsinki",
+  "address": null,
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1833345,
+  "lng": 24.9623008,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [
+    "sandwich"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "yes",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 6594034569,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 10,
+    "reasons": [
+      "takeaway_or_delivery"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.lounaat.info/lounas/subway/kaarina",
+    "checked_at": "2026-01-23T16:49:43.980Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": "https://www.lounaat.info/lounas/subway/kaarina"
+}

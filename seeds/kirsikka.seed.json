@@ -1,0 +1,60 @@
+{
+  "venue_id": "kirsikka",
+  "name": "Kirsikka",
+  "city": "Helsinki",
+  "address": null,
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1799674,
+  "lng": 24.9509468,
+  "website": "https://www.kirsikka.fi/etusivu",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 11716782898,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://cdn.prod.website-files.com/63f75baab2e0680d7ee998b8/696d686e1f51bf4432c86e83_Kirsikka_lunch_week_4.pdf",
+    "checked_at": "2026-01-23T16:08:19.302Z"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "kirsikka__primary",
+      "canonical_url": "https://www.kirsikka.fi/etusivu",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:08:19.302Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://cdn.prod.website-files.com/63f75baab2e0680d7ee998b8/696d686e1f51bf4432c86e83_Kirsikka_lunch_week_4.pdf"
+    }
+  ],
+  "lounaat_info_url": ""
+}

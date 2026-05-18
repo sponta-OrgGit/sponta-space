@@ -1,0 +1,64 @@
+{
+  "venue_id": "mcdonald-s",
+  "name": "McDonald's",
+  "city": "Helsinki",
+  "address": "Siltasaarenkatu 12, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1784751,
+  "lng": 24.9496263,
+  "website": "https://www.mcdonalds.fi/",
+  "phone": "+358 50 305 6691",
+  "email": "",
+  "opening_hours": "24/7",
+  "cuisine": [
+    "burger"
+  ],
+  "diet": {
+    "vegan": "yes",
+    "vegetarian": "yes"
+  },
+  "services": {
+    "takeaway": "yes",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1380991232,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 30,
+    "reasons": [
+      "has_website",
+      "takeaway_or_delivery"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.mcdonalds.com/fi/fi-fi.html",
+    "checked_at": "2026-01-23T16:31:24.062Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "mcdonald-s__primary",
+      "canonical_url": "https://www.mcdonalds.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:31:24.062Z",
+        "verified_by": "A4.1.1"
+      },
+      "menu_url": "https://www.mcdonalds.com/fi/fi-fi.html"
+    }
+  ],
+  "lounaat_info_url": ""
+}

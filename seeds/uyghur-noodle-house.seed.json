@@ -1,0 +1,46 @@
+{
+  "venue_id": "uyghur-noodle-house",
+  "name": "Uyghur Noodle House",
+  "city": "Helsinki",
+  "address": "Siltasaarenkatu 13, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1817835,
+  "lng": 24.949821,
+  "website": "",
+  "phone": "+35850 313 9358",
+  "email": "bilal841014@gmail.com",
+  "opening_hours": "Tu-Fr 11:00-21:00; Sa-Su 11:30-21:30",
+  "cuisine": [
+    "uyghur"
+  ],
+  "diet": {
+    "vegan": "yes",
+    "vegetarian": "yes"
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 12290359975,
+    "check_date": "2025-05-30"
+  },
+  "marketing_priority": {
+    "score": 0,
+    "reasons": []
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:45.716Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

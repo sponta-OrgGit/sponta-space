@@ -1,0 +1,63 @@
+{
+  "venue_id": "kot",
+  "name": "Kot.",
+  "city": "Helsinki",
+  "address": "Kaarlenkatu 7",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1853265,
+  "lng": 24.95175,
+  "website": "https://www.kotkot.world/",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [
+    "burger"
+  ],
+  "diet": {
+    "vegan": "no",
+    "vegetarian": "no"
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 10832468921,
+    "check_date": "2023-04-22"
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:34.549Z",
+    "last_http_status": 200,
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "kot__primary",
+      "canonical_url": "https://www.kotkot.world/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": ""
+}

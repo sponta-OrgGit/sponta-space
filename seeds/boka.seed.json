@@ -1,0 +1,43 @@
+{
+  "venue_id": "boka",
+  "name": "Boka",
+  "city": "Helsinki",
+  "address": "Hämeentie 20, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1820621,
+  "lng": 24.9553904,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1530480602,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 0,
+    "reasons": []
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.lounaat.info/lounas/ravintola-boka-helsinki/helsinki",
+    "checked_at": "2026-01-23T16:46:15.677Z",
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": "https://www.lounaat.info/lounas/ravintola-boka-helsinki/helsinki"
+}

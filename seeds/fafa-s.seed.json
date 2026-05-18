@@ -1,0 +1,64 @@
+{
+  "venue_id": "fafa-s",
+  "name": "Fafa's",
+  "city": "Helsinki",
+  "address": "Porthaninkatu 2, 00530",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1814894,
+  "lng": 24.9499926,
+  "website": "https://www.fafas.fi/Fafas+Hakaniemi",
+  "phone": "+35840 3519858",
+  "email": "aliraja1983@gmail.com",
+  "opening_hours": "Mo-Th 10:30-20:30; Fr-Sa 10:30-21:30; Su 11:00-18:30",
+  "cuisine": [
+    "lebanese"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 12874735001,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.fafas.fi/",
+    "checked_at": "2026-01-23T16:29:52.040Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "fafa-s__primary",
+      "canonical_url": "https://www.fafas.fi/Fafas+Hakaniemi",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:29:52.040Z",
+        "verified_by": "A4.1.1"
+      },
+      "menu_url": "https://www.fafas.fi/"
+    }
+  ],
+  "lounaat_info_url": ""
+}

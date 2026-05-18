@@ -1,0 +1,64 @@
+{
+  "venue_id": "pumpui",
+  "name": "Pumpui",
+  "city": "Helsinki",
+  "address": "Vilhonvuorenkatu 5, 00500 Helsinki",
+  "postal_code": "00500",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1873469,
+  "lng": 24.9647851,
+  "website": "https://www.pumpui.fi/",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [
+    "thai"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 207126419,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 50,
+    "reasons": [
+      "cuisine_hint",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.lounaat.info/lounas/onnellinen-pumpui/salo",
+    "checked_at": "2026-01-23T16:49:39.935Z",
+    "last_http_status": 200,
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "pumpui__primary",
+      "canonical_url": "https://www.pumpui.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": "https://www.lounaat.info/lounas/onnellinen-pumpui/salo"
+}

@@ -1,0 +1,65 @@
+{
+  "venue_id": "hesburger",
+  "name": "Hesburger",
+  "city": "Helsinki",
+  "address": "Helsinginkatu 28, 00510 Helsinki",
+  "postal_code": "00510",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1863364,
+  "lng": 24.9479755,
+  "website": "https://www.hesburger.fi/",
+  "phone": "+358 44 480 9239",
+  "email": "helsinki@hesburger.fi",
+  "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-23:00",
+  "cuisine": [
+    "burger"
+  ],
+  "diet": {
+    "vegan": "yes",
+    "vegetarian": "yes"
+  },
+  "services": {
+    "takeaway": "yes",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 294976827,
+    "check_date": "2024-09-17"
+  },
+  "marketing_priority": {
+    "score": 70,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website",
+      "takeaway_or_delivery"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:32.029Z",
+    "last_http_status": 200,
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "hesburger__primary",
+      "canonical_url": "https://www.hesburger.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": ""
+}

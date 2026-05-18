@@ -1,0 +1,49 @@
+{
+  "venue_id": "du-dii",
+  "name": "Du Dii",
+  "city": "Helsinki",
+  "address": "Viides linja 7, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1830878,
+  "lng": 24.9541759,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo off; Tu-Su 10:30-19:00",
+  "cuisine": [
+    "thai"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "yes",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1823286836,
+    "check_date": "2024-09-15"
+  },
+  "marketing_priority": {
+    "score": 40,
+    "reasons": [
+      "cuisine_hint",
+      "takeaway_or_delivery"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:29.254Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

@@ -1,0 +1,63 @@
+{
+  "venue_id": "ravintola-onda",
+  "name": "Ravintola Onda",
+  "city": "Helsinki",
+  "address": "Porthaninkatu 4, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1819765,
+  "lng": 24.9508101,
+  "website": "https://www.ravintolaonda.fi",
+  "phone": "+358 41 741 1775",
+  "email": "moi@ravintolaonda.fi",
+  "opening_hours": "Mo-Tu 11:00-15:00; We-Sa 11:00-21:00",
+  "cuisine": [
+    "buffet"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 446775129,
+    "check_date": "2025-04-23"
+  },
+  "marketing_priority": {
+    "score": 50,
+    "reasons": [
+      "cuisine_hint",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://ravintolaonda.fi/lounas",
+    "checked_at": "2026-01-23T16:08:43.363Z"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "ravintola-onda__primary",
+      "canonical_url": "https://www.ravintolaonda.fi",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:08:43.363Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://ravintolaonda.fi/lounas"
+    }
+  ],
+  "lounaat_info_url": ""
+}

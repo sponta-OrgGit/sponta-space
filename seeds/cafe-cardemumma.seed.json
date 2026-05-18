@@ -1,0 +1,61 @@
+{
+  "venue_id": "cafe-cardemumma",
+  "name": "Cafe Cardemumma",
+  "city": "Helsinki",
+  "address": "Kaarlenkatu 15, Helsinki",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1864851,
+  "lng": 24.9517697,
+  "website": "https://www.cafecardemumma.fi/",
+  "phone": "+358453558150",
+  "email": "",
+  "opening_hours": "Mo-Fr 08:30-16:00; Sa 11:00-17:00",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 3870612063,
+    "check_date": "2025-06-16"
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.cafecardemumma.fi/lounas",
+    "checked_at": "2026-01-23T16:08:08.697Z"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "cafe-cardemumma__primary",
+      "canonical_url": "https://www.cafecardemumma.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:08:08.697Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://www.cafecardemumma.fi/lounas"
+    }
+  ],
+  "lounaat_info_url": ""
+}

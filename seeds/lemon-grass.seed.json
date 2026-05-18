@@ -1,0 +1,65 @@
+{
+  "venue_id": "lemon-grass",
+  "name": "Lemon Grass",
+  "city": "Helsinki",
+  "address": "Kolmas linja 12, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1823293,
+  "lng": 24.9490393,
+  "website": "https://eat.fi/fi/helsinki/lemon-grass/menu",
+  "phone": "+35898763279",
+  "email": "",
+  "opening_hours": "Mo-Fr 10:30-21:00; Sa 12:00-21:00",
+  "cuisine": [
+    "thai"
+  ],
+  "diet": {
+    "vegan": "yes",
+    "vegetarian": "yes"
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1645802698,
+    "check_date": "2023-09-24"
+  },
+  "marketing_priority": {
+    "score": 90,
+    "reasons": [
+      "weekday_opening_hours",
+      "cuisine_hint",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://eat-fi-static.eatandthecity.io/assets/img/logo-16x16.png",
+    "checked_at": "2026-01-23T16:17:14.368Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "lemon-grass__primary",
+      "canonical_url": "https://eat.fi/fi/helsinki/lemon-grass/menu",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:17:14.368Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://eat-fi-static.eatandthecity.io/assets/img/logo-16x16.png"
+    }
+  ],
+  "lounaat_info_url": ""
+}

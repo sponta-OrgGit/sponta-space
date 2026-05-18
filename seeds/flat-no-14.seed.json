@@ -1,0 +1,61 @@
+{
+  "venue_id": "flat-no-14",
+  "name": "flät no 14",
+  "city": "Helsinki",
+  "address": "Viides linja 14, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1836377,
+  "lng": 24.951961,
+  "website": "https://www.flathelsinki.fi/",
+  "phone": "+358 44 9783067",
+  "email": "info@flathelsinki.fi",
+  "opening_hours": "Mo-Tu 09:00-17:00; We-Sa 09:00-23:00; Su 09:00-17:00",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 446760379,
+    "check_date": "2024-08-27"
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:29.993Z",
+    "last_http_status": 200,
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "flat-no-14__primary",
+      "canonical_url": "https://www.flathelsinki.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": ""
+}

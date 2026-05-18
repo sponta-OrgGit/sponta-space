@@ -1,0 +1,46 @@
+{
+  "venue_id": "wok-wok-hakaniemen-metroasema",
+  "name": "Wok Wok Hakaniemen metroasema",
+  "city": "Helsinki",
+  "address": null,
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1795771,
+  "lng": 24.9509789,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Fr 10:30-21:00; Sa 11:00-22:00; Su 12:00-21:00",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 10904941957,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 40,
+    "reasons": [
+      "weekday_opening_hours"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:47.222Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

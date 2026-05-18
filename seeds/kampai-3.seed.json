@@ -1,0 +1,64 @@
+{
+  "venue_id": "kampai-3",
+  "name": "Kampai 3\"",
+  "city": "Helsinki",
+  "address": "Kolmas linja 18, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1831543,
+  "lng": 24.9469659,
+  "website": "https://www.kampai3.fi/",
+  "phone": "+358 401719930",
+  "email": "",
+  "opening_hours": "Mo-Fr 11:00-21:00; Sa 12:00-22:00",
+  "cuisine": [
+    "japanese"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 3639940855,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://duyn491kcolsw.cloudfront.net/",
+    "checked_at": "2026-01-23T16:17:11.846Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "kampai-3__primary",
+      "canonical_url": "https://www.kampai3.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:17:11.846Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://duyn491kcolsw.cloudfront.net/"
+    }
+  ],
+  "lounaat_info_url": ""
+}

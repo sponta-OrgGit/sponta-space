@@ -1,0 +1,62 @@
+{
+  "venue_id": "roasberg",
+  "name": "Roasberg",
+  "city": "Helsinki",
+  "address": "Siltasaarenkatu 13, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1820564,
+  "lng": 24.9498111,
+  "website": "https://roasberg.fi/",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Fr 09:00-21:00; Fr 09:00-22:00; Sa 10:00-22:00; Sa 10:00-21:00",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 12435153323,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://roasberg.fi/xmlrpc.php",
+    "checked_at": "2026-01-23T16:17:31.506Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "roasberg__primary",
+      "canonical_url": "https://roasberg.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:17:31.506Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://roasberg.fi/xmlrpc.php"
+    }
+  ],
+  "lounaat_info_url": ""
+}

@@ -1,0 +1,46 @@
+{
+  "venue_id": "happy-sloth-cafe",
+  "name": "Happy Sloth Cafe",
+  "city": "Helsinki",
+  "address": "Haapaniemenkatu 3, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1815183,
+  "lng": 24.9570566,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Fr 11:00-15:00",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1529213470,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 40,
+    "reasons": [
+      "weekday_opening_hours"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:31.276Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

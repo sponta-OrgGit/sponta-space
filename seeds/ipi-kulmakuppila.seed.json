@@ -1,0 +1,64 @@
+{
+  "venue_id": "ipi-kulmakuppila",
+  "name": "IPI Kulmakuppila",
+  "city": "Helsinki",
+  "address": "Viides linja 9",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1832293,
+  "lng": 24.9538253,
+  "website": "https://ipikulmakuppila.fi/",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Fr 08:00-18:00; Sa 11:00-16:00; Su off",
+  "cuisine": [
+    "coffee_shop"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 4226632191,
+    "check_date": "2024-12"
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.lounaat.info/lounas/ipi-kulmakuppila/helsinki",
+    "checked_at": "2026-01-23T16:49:33.073Z",
+    "last_http_status": 200,
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "ipi-kulmakuppila__primary",
+      "canonical_url": "https://ipikulmakuppila.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": "https://www.lounaat.info/lounas/ipi-kulmakuppila/helsinki"
+}

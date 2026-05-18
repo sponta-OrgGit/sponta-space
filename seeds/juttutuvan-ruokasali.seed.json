@@ -1,0 +1,61 @@
+{
+  "venue_id": "juttutuvan-ruokasali",
+  "name": "Juttutuvan ruokasali",
+  "city": "Helsinki",
+  "address": "Helsinki",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1789718,
+  "lng": 24.9474542,
+  "website": "https://www.juttutupa.fi/",
+  "phone": "",
+  "email": "juttutupa@graniittiravintolat.fi",
+  "opening_hours": "Mo 10:00-24:00; Tu-Th 10:00-01:00; Fr-Sa 10:00-03:00; Su 12:00-23:00",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 76474078,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://juttutupa.fi/ruokalista/#lounas",
+    "checked_at": "2026-01-23T16:08:16.373Z"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "juttutuvan-ruokasali__primary",
+      "canonical_url": "https://www.juttutupa.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:08:16.373Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://juttutupa.fi/ruokalista/#lounas"
+    }
+  ],
+  "lounaat_info_url": ""
+}

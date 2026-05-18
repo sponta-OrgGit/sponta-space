@@ -1,0 +1,48 @@
+{
+  "venue_id": "subway",
+  "name": "Subway",
+  "city": "Helsinki",
+  "address": "Siltasaarenkatu 14, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1792089,
+  "lng": 24.9495553,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [
+    "sandwich"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "yes",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 92766209,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 10,
+    "reasons": [
+      "takeaway_or_delivery"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.lounaat.info/lounas/subway/kaarina",
+    "checked_at": "2026-01-23T16:49:44.242Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": "https://www.lounaat.info/lounas/subway/kaarina"
+}

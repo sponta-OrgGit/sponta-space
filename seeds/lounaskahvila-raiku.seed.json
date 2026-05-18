@@ -1,0 +1,48 @@
+{
+  "venue_id": "lounaskahvila-raiku",
+  "name": "Lounaskahvila Raiku",
+  "city": "Helsinki",
+  "address": "Hämeentie 1, Helsinki",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1803856,
+  "lng": 24.9518554,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Fr 11:00-15:00",
+  "cuisine": [
+    "regional"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 207107581,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 40,
+    "reasons": [
+      "weekday_opening_hours"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:35.044Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

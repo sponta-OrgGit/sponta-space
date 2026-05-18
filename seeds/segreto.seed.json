@@ -1,0 +1,62 @@
+{
+  "venue_id": "segreto",
+  "name": "Segreto",
+  "city": "Helsinki",
+  "address": "Kaarlenkatu 11, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1858873,
+  "lng": 24.9516584,
+  "website": "https://www.segreto.fi/",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [
+    "italian"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 8852722320,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.segreto.fi/lounas",
+    "checked_at": "2026-01-23T16:08:45.439Z"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "segreto__primary",
+      "canonical_url": "https://www.segreto.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:08:45.439Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://www.segreto.fi/lounas"
+    }
+  ],
+  "lounaat_info_url": ""
+}

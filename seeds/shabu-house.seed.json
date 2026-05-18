@@ -1,0 +1,64 @@
+{
+  "venue_id": "shabu-house",
+  "name": "Shabu House",
+  "city": "Helsinki",
+  "address": "Hämeentie 31, 00500 Helsinki",
+  "postal_code": "00500",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1876662,
+  "lng": 24.9631396,
+  "website": "https://www.shabuhousegroup.com/",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Th 11:00-22:00; Fr 11:00-23:00; Sa 16:00-23:00; Su 16:00-22:00",
+  "cuisine": [
+    "korean"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1523077317,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:43.225Z",
+    "last_http_status": 200,
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "shabu-house__primary",
+      "canonical_url": "https://www.shabuhousegroup.com/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": ""
+}

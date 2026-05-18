@@ -1,0 +1,49 @@
+{
+  "venue_id": "cafe-ilo",
+  "name": "Cafe Ilo",
+  "city": "Helsinki",
+  "address": "Vilhonvuorenkatu 7-9",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1871428,
+  "lng": 24.9652647,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Fr 08:30-15:30",
+  "cuisine": [
+    "asian"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 8831560580,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 70,
+    "reasons": [
+      "weekday_opening_hours",
+      "cuisine_hint"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:27.775Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

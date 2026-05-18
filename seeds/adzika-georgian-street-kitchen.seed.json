@@ -1,0 +1,64 @@
+{
+  "venue_id": "adzika-georgian-street-kitchen",
+  "name": "Adzika Georgian Street Kitchen",
+  "city": "Helsinki",
+  "address": "Toinen linja 7",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.181477,
+  "lng": 24.9490837,
+  "website": "https://adzika.net/",
+  "phone": "+358503714927",
+  "email": "adzika@hatsapuri.fi",
+  "opening_hours": "Mo-Th 11:00-20:00; Fr-Sa 11:00-22:00",
+  "cuisine": [
+    "georgian"
+  ],
+  "diet": {
+    "vegan": "yes",
+    "vegetarian": "yes"
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 10973435865,
+    "check_date": "2023-10-02"
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:25.601Z",
+    "last_http_status": 200,
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "adzika-georgian-street-kitchen__primary",
+      "canonical_url": "https://adzika.net/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": ""
+}

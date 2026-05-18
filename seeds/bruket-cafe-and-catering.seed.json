@@ -1,0 +1,60 @@
+{
+  "venue_id": "bruket-cafe-and-catering",
+  "name": "Bruket Cafe & Catering",
+  "city": "Helsinki",
+  "address": "Kaikukatu 4, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1825345,
+  "lng": 24.9595072,
+  "website": "http://www.bruketcafe.fi/",
+  "phone": "",
+  "email": "hello@bruketcafe.fi",
+  "opening_hours": "Mo-Sa 09:00-19:00",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 6660555490,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://ravintolabruket.fi/lounas-3/",
+    "checked_at": "2026-01-23T16:08:08.532Z"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "bruket-cafe-and-catering__primary",
+      "canonical_url": "http://www.bruketcafe.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:08:08.532Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://ravintolabruket.fi/lounas-3/"
+    }
+  ],
+  "lounaat_info_url": ""
+}

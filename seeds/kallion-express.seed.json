@@ -1,0 +1,61 @@
+{
+  "venue_id": "kallion-express",
+  "name": "Kallion Express",
+  "city": "Helsinki",
+  "address": "Fleminginkatu 13, 00500 Helsinki",
+  "postal_code": "00500",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1862149,
+  "lng": 24.9534638,
+  "website": "https://kallionexpress.fi/",
+  "phone": "+358404429383",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1056678097,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://kallionexpress.fi/lounas",
+    "checked_at": "2026-01-23T16:30:54.623Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "kallion-express__primary",
+      "canonical_url": "https://kallionexpress.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:30:54.623Z",
+        "verified_by": "A4.1.1"
+      },
+      "menu_url": "https://kallionexpress.fi/lounas"
+    }
+  ],
+  "lounaat_info_url": ""
+}

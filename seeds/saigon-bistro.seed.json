@@ -1,0 +1,48 @@
+{
+  "venue_id": "saigon-bistro",
+  "name": "Saigon Bistro",
+  "city": "Helsinki",
+  "address": "Kaarlenkatu 13",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1864292,
+  "lng": 24.951661,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Th 10:30-20:00; Fr 10:30-21:00; Sa 11:00-21:00; Su 11:30-18:00",
+  "cuisine": [
+    "vietnamese"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 828456015,
+    "check_date": "2025-06-16"
+  },
+  "marketing_priority": {
+    "score": 40,
+    "reasons": [
+      "weekday_opening_hours"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.lounaat.info/lounas/saigon-bistro/helsinki",
+    "checked_at": "2026-01-23T16:49:42.979Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": "https://www.lounaat.info/lounas/saigon-bistro/helsinki"
+}

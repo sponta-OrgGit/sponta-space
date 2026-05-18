@@ -1,0 +1,66 @@
+{
+  "venue_id": "peace-kitchen",
+  "name": "Peace Kitchen",
+  "city": "Helsinki",
+  "address": "Pengerkatu 24",
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1871698,
+  "lng": 24.9596672,
+  "website": "https://peacekitchen.fi/",
+  "phone": "+358503532022",
+  "email": "",
+  "opening_hours": "Mo-Fr 11:00-21:00; Sa 12:00-21:00",
+  "cuisine": [
+    "thai"
+  ],
+  "diet": {
+    "vegan": "only",
+    "vegetarian": "only"
+  },
+  "services": {
+    "takeaway": "yes",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 10832411137,
+    "check_date": "2023-04-22"
+  },
+  "marketing_priority": {
+    "score": 100,
+    "reasons": [
+      "weekday_opening_hours",
+      "cuisine_hint",
+      "has_website",
+      "takeaway_or_delivery"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://peacekitchen.fi/",
+    "checked_at": "2026-01-23T16:31:31.956Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "peace-kitchen__primary",
+      "canonical_url": "https://peacekitchen.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:31:31.956Z",
+        "verified_by": "A4.1.1"
+      },
+      "menu_url": "https://peacekitchen.fi/"
+    }
+  ],
+  "lounaat_info_url": ""
+}

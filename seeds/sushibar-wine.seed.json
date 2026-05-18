@@ -1,0 +1,65 @@
+{
+  "venue_id": "sushibar-wine",
+  "name": "Sushibar+Wine",
+  "city": "Helsinki",
+  "address": "Hämeentie 19, 00500 Helsinki",
+  "postal_code": "00500",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1859999,
+  "lng": 24.961531,
+  "website": "https://sushibarwine.com/ravintolat/kallio/",
+  "phone": "+358106668462",
+  "email": "",
+  "opening_hours": "Mo,Tu 11:00-20:30; We,Th 11:00-21:00; Fr 11:00-21:30; Sa 14:00-21:30",
+  "cuisine": [
+    "asian"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1528652523,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "cuisine_hint",
+      "has_website",
+      "bar_pub_signal"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.sushibarwine.com/menu/lounas/",
+    "checked_at": "2026-01-23T16:08:52.388Z"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "sushibar-wine__primary",
+      "canonical_url": "https://sushibarwine.com/ravintolat/kallio/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:08:52.388Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://www.sushibarwine.com/menu/lounas/"
+    }
+  ],
+  "lounaat_info_url": ""
+}

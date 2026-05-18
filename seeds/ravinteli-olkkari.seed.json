@@ -1,0 +1,61 @@
+{
+  "venue_id": "ravinteli-olkkari",
+  "name": "Ravinteli Olkkari",
+  "city": "Helsinki",
+  "address": "Toinen linja 3, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1808541,
+  "lng": 24.9506196,
+  "website": "https://ravinteliolkkari.fi/",
+  "phone": "+3580440850490",
+  "email": "info@ravinteliolkkari.fi",
+  "opening_hours": "We-Th 11:00-14:30,17:00-22:00; Fr 11:00-14:30,16:00-00:00; Sa 15:00-00:00; Su-Tu off",
+  "cuisine": [],
+  "diet": {
+    "vegan": "yes",
+    "vegetarian": "yes"
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 7202747614,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://ravinteliolkkari.fi/",
+    "checked_at": "2026-01-23T16:31:55.920Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "ravinteli-olkkari__primary",
+      "canonical_url": "https://ravinteliolkkari.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:31:55.920Z",
+        "verified_by": "A4.1.1"
+      },
+      "menu_url": "https://ravinteliolkkari.fi/"
+    }
+  ],
+  "lounaat_info_url": ""
+}

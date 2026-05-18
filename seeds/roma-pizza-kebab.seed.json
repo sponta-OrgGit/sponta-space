@@ -1,0 +1,61 @@
+{
+  "venue_id": "roma-pizza-kebab",
+  "name": "Roma Pizza Kebab",
+  "city": "Helsinki",
+  "address": null,
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1873758,
+  "lng": 24.9592566,
+  "website": "https://www.romapizzakebab.fi/",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 11775372975,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.romapizzakebab.fi/favicon.ico",
+    "checked_at": "2026-01-23T16:17:32.043Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "roma-pizza-kebab__primary",
+      "canonical_url": "https://www.romapizzakebab.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:17:32.043Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://www.romapizzakebab.fi/favicon.ico"
+    }
+  ],
+  "lounaat_info_url": ""
+}

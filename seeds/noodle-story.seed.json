@@ -1,0 +1,48 @@
+{
+  "venue_id": "noodle-story",
+  "name": "Noodle story",
+  "city": "Helsinki",
+  "address": "Alppikatu 5, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1851414,
+  "lng": 24.9418367,
+  "website": "",
+  "phone": "+358 44 9848568",
+  "email": "",
+  "opening_hours": "Mo-Fr 11:00-21:00; Sa-Su 12:00-21:00",
+  "cuisine": [
+    "noodle"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 440629539,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 40,
+    "reasons": [
+      "weekday_opening_hours"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:37.198Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

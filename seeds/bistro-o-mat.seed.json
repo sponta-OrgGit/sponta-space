@@ -1,0 +1,61 @@
+{
+  "venue_id": "bistro-o-mat",
+  "name": "Bistro O mat",
+  "city": "Helsinki",
+  "address": null,
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1815296,
+  "lng": 24.9489472,
+  "website": "https://bistromat.fi/hakaniemi/",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Th 11:00-20:00; Fr,Sa 11:00-22:00",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 11233732898,
+    "check_date": "2023-10-02"
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://bistromat.fi/hakaniemi/menu#Lounas",
+    "checked_at": "2026-01-23T16:08:07.514Z"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "bistro-o-mat__primary",
+      "canonical_url": "https://bistromat.fi/hakaniemi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:08:07.514Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://bistromat.fi/hakaniemi/menu#Lounas"
+    }
+  ],
+  "lounaat_info_url": ""
+}

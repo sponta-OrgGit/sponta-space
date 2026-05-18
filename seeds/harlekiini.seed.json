@@ -1,0 +1,46 @@
+{
+  "venue_id": "harlekiini",
+  "name": "Harlekiini",
+  "city": "Helsinki",
+  "address": "Porthaninkatu 5, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1818784,
+  "lng": 24.951355,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Fr 07:30-15:30; Sa 08:00-15:00; Su 09:00-15:00",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 445381428,
+    "check_date": "2024-09-15"
+  },
+  "marketing_priority": {
+    "score": 40,
+    "reasons": [
+      "weekday_opening_hours"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.lounaat.info/lounas/harlekiini/hyvinkaa",
+    "checked_at": "2026-01-23T16:49:31.528Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": "https://www.lounaat.info/lounas/harlekiini/hyvinkaa"
+}

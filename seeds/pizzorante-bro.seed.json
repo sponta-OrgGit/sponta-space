@@ -1,0 +1,62 @@
+{
+  "venue_id": "pizzorante-bro",
+  "name": "Pizzorante Bro",
+  "city": "Helsinki",
+  "address": "John Stenbergin ranta 4, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.177075,
+  "lng": 24.9514424,
+  "website": "https://www3.hilton.com/en/hotels/finland/hilton-helsinki-strand-HELHIHI/dining/index.html",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Fr 11:00-23:00; Sa-Su 12:00-10:00",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 4370935158,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.hilton.com/en/",
+    "checked_at": "2026-01-23T16:31:51.617Z",
+    "last_error": "This operation was aborted"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "pizzorante-bro__primary",
+      "canonical_url": "https://www3.hilton.com/en/hotels/finland/hilton-helsinki-strand-HELHIHI/dining/index.html",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:31:51.617Z",
+        "verified_by": "A4.1.1"
+      },
+      "menu_url": "https://www.hilton.com/en/"
+    }
+  ],
+  "lounaat_info_url": ""
+}

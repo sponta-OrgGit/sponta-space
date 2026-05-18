@@ -1,0 +1,64 @@
+{
+  "venue_id": "sushi-bar-rice-garden",
+  "name": "Sushi Bar Rice Garden",
+  "city": "Helsinki",
+  "address": "Siltasaarenkatu 12, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1784434,
+  "lng": 24.9493809,
+  "website": "https://facebook.com/",
+  "phone": "",
+  "email": "",
+  "opening_hours": "",
+  "cuisine": [
+    "sushi"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1380991231,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 0,
+    "reasons": [
+      "has_website",
+      "bar_pub_signal"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.facebook.com/lounas",
+    "checked_at": "2026-01-23T16:32:10.018Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "sushi-bar-rice-garden__primary",
+      "canonical_url": "https://facebook.com/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:32:10.018Z",
+        "verified_by": "A4.1.1"
+      },
+      "menu_url": "https://www.facebook.com/lounas"
+    }
+  ],
+  "lounaat_info_url": ""
+}

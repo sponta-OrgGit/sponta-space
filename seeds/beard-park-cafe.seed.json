@@ -1,0 +1,65 @@
+{
+  "venue_id": "beard-park-cafe",
+  "name": "Beard Park Cafe",
+  "city": "Helsinki",
+  "address": "Agricolankatu 13, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1843224,
+  "lng": 24.9518973,
+  "website": "https://beardparkcafe.fi/",
+  "phone": "+35897260770",
+  "email": "",
+  "opening_hours": "Mo-Fr 09:00-19:00; Sa-Su 9:30-18:00",
+  "cuisine": [
+    "mediterranean"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 2222510493,
+    "check_date": "2025-03-14"
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:26.090Z",
+    "last_error": "fetch failed",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "beard-park-cafe__primary",
+      "canonical_url": "https://beardparkcafe.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": ""
+}

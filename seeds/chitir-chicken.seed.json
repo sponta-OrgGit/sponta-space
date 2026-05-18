@@ -1,0 +1,64 @@
+{
+  "venue_id": "chitir-chicken",
+  "name": "Chitir Chicken",
+  "city": "Helsinki",
+  "address": "Vilhonvuorenkatu 3, 00500 Helsinki",
+  "postal_code": "00500",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1875529,
+  "lng": 24.9640132,
+  "website": "https://chitirchicken.fi/",
+  "phone": "+358 40 018 2652",
+  "email": "info@chitirchicken.fi",
+  "opening_hours": "Mo-Th 11:00-23:00, Fr,Sa 11:00-24:00, Su 11:00-23:00",
+  "cuisine": [
+    "chicken"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 10570708158,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://chitirchicken.fi/wp-content/uploads/2025/04/lunch.png",
+    "checked_at": "2026-01-23T16:29:19.957Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "chitir-chicken__primary",
+      "canonical_url": "https://chitirchicken.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:29:19.957Z",
+        "verified_by": "A4.1.1"
+      },
+      "menu_url": "https://chitirchicken.fi/wp-content/uploads/2025/04/lunch.png"
+    }
+  ],
+  "lounaat_info_url": ""
+}

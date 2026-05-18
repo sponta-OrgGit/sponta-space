@@ -1,0 +1,63 @@
+{
+  "venue_id": "loving-hut",
+  "name": "Loving Hut",
+  "city": "Helsinki",
+  "address": "Kolmas linja 17, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1828683,
+  "lng": 24.9484029,
+  "website": "https://www.lovinghut.com/fi/",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Tu-Fr 11:00-20:30; Sa 12:00-20:30; Su 13:00-20:30",
+  "cuisine": [
+    "international"
+  ],
+  "diet": {
+    "vegan": "only",
+    "vegetarian": "only"
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 3145451463,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:35.276Z",
+    "last_http_status": 200,
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "loving-hut__primary",
+      "canonical_url": "https://www.lovinghut.com/fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": ""
+}

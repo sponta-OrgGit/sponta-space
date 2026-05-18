@@ -1,0 +1,65 @@
+{
+  "venue_id": "ekeko-restobar",
+  "name": "Ekeko Restobar",
+  "city": "Helsinki",
+  "address": "Vilhonvuorenkatu 3, 00500 Helsinki",
+  "postal_code": "00500",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1874843,
+  "lng": 24.9642618,
+  "website": "https://www.ekeko.fi/",
+  "phone": "+358 45 1402580",
+  "email": "info@ekeko.fi",
+  "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 12:00-24:00",
+  "cuisine": [
+    "latin_american"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 13261205532,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 30,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website",
+      "bar_pub_signal"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.ekeko.fi/",
+    "checked_at": "2026-01-23T16:17:07.067Z",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "ekeko-restobar__primary",
+      "canonical_url": "https://www.ekeko.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:17:07.067Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://www.ekeko.fi/"
+    }
+  ],
+  "lounaat_info_url": ""
+}

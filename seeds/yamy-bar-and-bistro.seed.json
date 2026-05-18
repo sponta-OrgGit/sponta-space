@@ -1,0 +1,50 @@
+{
+  "venue_id": "yamy-bar-and-bistro",
+  "name": "Yamy bar&bistro",
+  "city": "Helsinki",
+  "address": null,
+  "postal_code": null,
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1795478,
+  "lng": 24.9550179,
+  "website": "",
+  "phone": "+358413123234",
+  "email": "",
+  "opening_hours": "Su-Tu 11:00-24:00, We-Sa 11:00-02:00",
+  "cuisine": [
+    "pizza",
+    "burger",
+    "indian"
+  ],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1529213460,
+    "check_date": ""
+  },
+  "marketing_priority": {
+    "score": 0,
+    "reasons": [
+      "bar_pub_signal"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:47.468Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

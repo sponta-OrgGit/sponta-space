@@ -1,0 +1,48 @@
+{
+  "venue_id": "tran-tinh",
+  "name": "Trần Tịnh",
+  "city": "Helsinki",
+  "address": "Siltasaarenkatu 3-5, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1777288,
+  "lng": 24.9507731,
+  "website": "",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Mo-Fr 11:00-19:00; Sa-Su 12:00-19:00",
+  "cuisine": [
+    "vietnamese"
+  ],
+  "diet": {
+    "vegan": "only",
+    "vegetarian": "only"
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 2757819180,
+    "check_date": "2024-08-06"
+  },
+  "marketing_priority": {
+    "score": 40,
+    "reasons": [
+      "weekday_opening_hours"
+    ]
+  },
+  "lunch": {
+    "has_menu": false,
+    "menu_url": "",
+    "checked_at": "2026-01-23T16:49:45.237Z",
+    "fallback": "lounaat_info",
+    "last_http_status": 200
+  },
+  "primary_source_id": "",
+  "sources": [],
+  "lounaat_info_url": ""
+}

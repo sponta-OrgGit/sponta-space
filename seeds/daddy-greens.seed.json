@@ -1,0 +1,62 @@
+{
+  "venue_id": "daddy-greens",
+  "name": "Daddy Greens",
+  "city": "Helsinki",
+  "address": "Viides linja 16, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.183825,
+  "lng": 24.9514846,
+  "website": "https://daddygreens.fi/kallio/",
+  "phone": "+358444932142",
+  "email": "",
+  "opening_hours": "Mo-Th 16:00-21:00; Fr 11:00-22:00; Sa 12:00-22:00; Su 14:00-20:00",
+  "cuisine": [],
+  "diet": {
+    "vegan": "yes",
+    "vegetarian": "yes"
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1525997417,
+    "check_date": "2024-12"
+  },
+  "marketing_priority": {
+    "score": 60,
+    "reasons": [
+      "weekday_opening_hours",
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.lounaat.info/lounas/daddy-greens-pizzabar/helsinki",
+    "checked_at": "2026-01-23T16:49:28.761Z",
+    "last_http_status": 200,
+    "fallback": "lounaat_info"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "daddy-greens__primary",
+      "canonical_url": "https://daddygreens.fi/kallio/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "pending",
+        "verified_at": null,
+        "verified_by": ""
+      }
+    }
+  ],
+  "lounaat_info_url": "https://www.lounaat.info/lounas/daddy-greens-pizzabar/helsinki"
+}

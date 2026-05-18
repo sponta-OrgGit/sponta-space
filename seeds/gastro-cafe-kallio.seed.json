@@ -1,0 +1,60 @@
+{
+  "venue_id": "gastro-cafe-kallio",
+  "name": "Gastro Cafe Kallio",
+  "city": "Helsinki",
+  "address": "Fleminginkatu 7, 00530 Helsinki",
+  "postal_code": "00530",
+  "country": "FI",
+  "segment": "Lunch",
+  "status": "active",
+  "lat": 60.1847596,
+  "lng": 24.9532812,
+  "website": "https://www.gastrocafe.fi/",
+  "phone": "",
+  "email": "",
+  "opening_hours": "Tu-Fr 08:00-18:00; Sa-Su 10:00-15:00",
+  "cuisine": [],
+  "diet": {
+    "vegan": "",
+    "vegetarian": ""
+  },
+  "services": {
+    "takeaway": "",
+    "delivery": ""
+  },
+  "osm": {
+    "type": "node",
+    "id": 1151191059,
+    "check_date": "2024-12"
+  },
+  "marketing_priority": {
+    "score": 20,
+    "reasons": [
+      "has_website"
+    ]
+  },
+  "lunch": {
+    "has_menu": true,
+    "menu_url": "https://www.gastrocafe.fi/lounaat/",
+    "checked_at": "2026-01-23T16:08:13.624Z"
+  },
+  "primary_source_id": "",
+  "sources": [
+    {
+      "source_id": "gastro-cafe-kallio__primary",
+      "canonical_url": "https://www.gastrocafe.fi/",
+      "source_type": "website_html",
+      "reliability_rank": 1,
+      "requires_js": "auto",
+      "menu_selector_hint": "main",
+      "backup_urls": [],
+      "verification": {
+        "status": "approved",
+        "verified_at": "2026-01-23T16:08:13.624Z",
+        "verified_by": "A1"
+      },
+      "menu_url": "https://www.gastrocafe.fi/lounaat/"
+    }
+  ],
+  "lounaat_info_url": ""
+}
