@@ -1,3 +1,4 @@
+import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { WhatSpontaIs } from "./components/WhatSpontaIs";
 import { WhatVenueGets } from "./components/WhatVenueGets";
@@ -8,6 +9,7 @@ import { Footer } from "./components/Footer";
 export default function LandingPage() {
   return (
     <main className="min-h-screen overflow-x-hidden bg-bg-0">
+      <Header />
       <Hero />
       <WhatSpontaIs />
       <WhatVenueGets />

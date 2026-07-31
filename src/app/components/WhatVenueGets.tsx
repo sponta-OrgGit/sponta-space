@@ -11,7 +11,7 @@ const BENEFITS = [
   {
     icon: Sparkles,
     title: "Ilmainen liittyä",
-    body: "Ei piilokuluja, ei ostettavia mainospaikkoja. Sama kohtelu jokaiselle Kallion paikalle.",
+    body: "Ei piilokuluja. Lisämaksusta saat työkaluja, jotka nostavat näkyvyyttäsi lähellä oleville ryhmille.",
     highlight: true,
   },
   {

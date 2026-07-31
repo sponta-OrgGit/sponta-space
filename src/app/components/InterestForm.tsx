@@ -7,28 +7,54 @@ import { SITE } from "@/lib/constants";
 
 type Status = "idle" | "sending" | "sent" | "error";
 
+const VENUE_TYPES = [
+  "Lounas",
+  "Brunssi",
+  "Aamiainen",
+  "À la carte",
+  "Baari",
+  "Tilanvuokraus",
+  "Catering",
+];
+
 const LOUNASTAJA_OPTIONS = ["", "Kyllä", "En vielä", "En osaa sanoa"];
 
 export function InterestForm() {
   const [status, setStatus] = useState<Status>("idle");
   const [values, setValues] = useState({
     venueName: "",
+    venueTypes: [] as string[],
+    lounastaja: "",
     contactPerson: "",
     email: "",
-    lounastaja: "",
   });
 
-  function update<K extends keyof typeof values>(key: K, value: string) {
+  function update<K extends keyof typeof values>(key: K, value: (typeof values)[K]) {
     setValues((v) => ({ ...v, [key]: value }));
   }
+
+  function toggleVenueType(type: string) {
+    setValues((v) => {
+      const has = v.venueTypes.includes(type);
+      const venueTypes = has ? v.venueTypes.filter((t) => t !== type) : [...v.venueTypes, type];
+      // Dropped "Lounas" — the Lounastaja sub-question no longer applies.
+      const lounastaja = venueTypes.includes("Lounas") ? v.lounastaja : "";
+      return { ...v, venueTypes, lounastaja };
+    });
+  }
+
+  const servesLunch = values.venueTypes.includes("Lounas");
 
   function mailtoFallback() {
     const subject = encodeURIComponent(`Kiinnostus Spontaan — ${values.venueName || "venue"}`);
     const bodyLines = [
       `Yritys: ${values.venueName}`,
+      `Tarjonta: ${values.venueTypes.join(", ") || "-"}`,
+      servesLunch && values.lounastaja
+        ? `Julkaiseeko lounaslistaa jo: ${values.lounastaja}`
+        : "",
       `Yhteyshenkilö: ${values.contactPerson}`,
       `Sähköposti: ${values.email}`,
-      values.lounastaja ? `Julkaiseeko lounaslistaa jo: ${values.lounastaja}` : "",
     ].filter(Boolean);
     const body = encodeURIComponent(bodyLines.join("\n"));
     return `mailto:${SITE.contactEmail}?subject=${subject}&body=${body}`;
@@ -95,6 +121,56 @@ export function InterestForm() {
             onChange={(v) => update("venueName", v)}
             autoComplete="organization"
           />
+
+          <div>
+            <span className="mb-2 block font-body text-sm text-fg-2">
+              Minkälainen paikka on kyseessä?{" "}
+              <span className="text-fg-3">(valitse kaikki sopivat)</span>
+            </span>
+            <div className="flex flex-wrap gap-2" role="group" aria-label="Minkälainen paikka on kyseessä?">
+              {VENUE_TYPES.map((type) => {
+                const selected = values.venueTypes.includes(type);
+                return (
+                  <button
+                    key={type}
+                    type="button"
+                    aria-pressed={selected}
+                    onClick={() => toggleVenueType(type)}
+                    className={
+                      "pressable rounded-pill border px-4 py-2 font-body text-sm transition-colors " +
+                      (selected
+                        ? "border-orange bg-orange text-bg-0"
+                        : "border-white/10 bg-bg-3 text-fg-2 hover:bg-bg-4")
+                    }
+                  >
+                    {type}
+                  </button>
+                );
+              })}
+            </div>
+
+            {servesLunch && (
+              <div className="mt-4 rounded-xl border border-white/10 bg-bg-2 p-4">
+                <label htmlFor="lounastaja" className="mb-2 block font-body text-sm text-fg-2">
+                  Julkaisetko lounaslistaasi jo jossain, esim. Lounastajassa?{" "}
+                  <span className="text-fg-3">(valinnainen)</span>
+                </label>
+                <select
+                  id="lounastaja"
+                  value={values.lounastaja}
+                  onChange={(e) => update("lounastaja", e.target.value)}
+                  className="w-full rounded-xl border border-white/10 bg-bg-3 px-4 py-3 font-body text-fg-1 focus:border-orange"
+                >
+                  {LOUNASTAJA_OPTIONS.map((opt) => (
+                    <option key={opt} value={opt}>
+                      {opt || "Valitse…"}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
+          </div>
+
           <Field
             label="Yhteyshenkilö"
             htmlFor="contactPerson"
@@ -112,25 +188,6 @@ export function InterestForm() {
             onChange={(v) => update("email", v)}
             autoComplete="email"
           />
-
-          <div>
-            <label htmlFor="lounastaja" className="mb-2 block font-body text-sm text-fg-2">
-              Julkaisetko lounaslistaasi jo jossain, esim. Lounastajassa?{" "}
-              <span className="text-fg-3">(valinnainen)</span>
-            </label>
-            <select
-              id="lounastaja"
-              value={values.lounastaja}
-              onChange={(e) => update("lounastaja", e.target.value)}
-              className="w-full rounded-xl border border-white/10 bg-bg-3 px-4 py-3 font-body text-fg-1 focus:border-orange"
-            >
-              {LOUNASTAJA_OPTIONS.map((opt) => (
-                <option key={opt} value={opt}>
-                  {opt || "Valitse…"}
-                </option>
-              ))}
-            </select>
-          </div>
 
           <button
             type="submit"
