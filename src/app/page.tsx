@@ -7,7 +7,7 @@ import { Footer } from "./components/Footer";
 
 export default function LandingPage() {
   return (
-    <main className="min-h-screen bg-bg-0">
+    <main className="min-h-screen overflow-x-hidden bg-bg-0">
       <Hero />
       <WhatSpontaIs />
       <WhatVenueGets />
