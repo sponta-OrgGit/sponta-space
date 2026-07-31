@@ -1,12 +1,12 @@
 import type { Metadata, Viewport } from "next";
-import { Big_Shoulders_Display, Archivo, JetBrains_Mono } from "next/font/google";
+import { Oswald, Archivo, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { SITE } from "@/lib/constants";
 
-const display = Big_Shoulders_Display({
+const display = Oswald({
   subsets: ["latin"],
-  weight: ["600", "700", "800"],
-  variable: "--font-big-shoulders",
+  weight: ["500", "600", "700"],
+  variable: "--font-oswald",
   display: "swap",
 });
 

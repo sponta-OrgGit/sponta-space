@@ -18,7 +18,7 @@
   --color-signal: #2fbfa6; /* secondary accent — data / trust sections */
   --color-signal-dim: #1c5c52;
 
-  --font-display: var(--font-big-shoulders), sans-serif;
+  --font-display: var(--font-oswald), sans-serif;
   --font-body: var(--font-archivo), sans-serif;
   --font-mono: var(--font-jetbrains-mono), monospace;
 
