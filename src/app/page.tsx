@@ -3,10 +3,6 @@ import { Footer } from "./components/ui/footer";
 import { Header } from "./components/ui/header";
 import Image from "next/image";
 
-
-// ✅ Explicitly enable dynamic rendering
-export const dynamic = "force-dynamic";
-
 export default function LandingPage() {
   return (
     <div
