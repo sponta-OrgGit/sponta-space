@@ -1,39 +1,42 @@
+import { MapPin, Sparkles, PenLine } from "lucide-react";
 import { SectionLabel } from "./SectionLabel";
 
 const BENEFITS = [
   {
-    tag: "01",
-    title: "Näkyvyys juuri nyt päättäville",
-    body: "Näyt lähistöllä oleville käyttäjille sillä hetkellä, kun he päättävät minne mennä — ei hukkuneena pitkään listaan.",
+    icon: MapPin,
+    title: "Näkyvyyttä juuri nyt",
+    body: "Näyt lähistöllä oleville silloin kun he päättävät minne mennä — et hukkuneena pitkään listaan.",
   },
   {
-    tag: "02",
-    title: "Ei provisiota, ei mainospaikkoja",
-    body: "Näkyvyys ei ole ostettavissa eikä siitä laskuteta myynnin mukaan. Sama kohtelu jokaiselle Kallion paikalle.",
+    icon: Sparkles,
+    title: "Ilmainen liittyä",
+    body: "Ei piilokuluja, ei ostettavia mainospaikkoja. Sama kohtelu jokaiselle Kallion paikalle.",
   },
   {
-    tag: "03",
+    icon: PenLine,
     title: "Sinä hallitset tietosi",
-    body: "Kuvat, kuvausteksti ja tiedot pysyvät sinun hallinnassasi — voit korjata tai täydentää niitä milloin tahansa.",
+    body: "Kuvat ja kuvausteksti pysyvät sinun käsissäsi. Korjaa tai täydennä milloin vain.",
   },
 ];
 
 export function WhatVenueGets() {
   return (
-    <section className="border-b border-ink-line bg-ink-raised/40 px-5 py-12 sm:px-8 sm:py-16">
+    <section className="border-b border-white/10 bg-bg-1 px-5 py-12 sm:px-8 sm:py-16">
       <div className="mx-auto max-w-content">
         <SectionLabel>Mitä saat</SectionLabel>
         <div className="grid gap-4 sm:grid-cols-3 sm:gap-5">
-          {BENEFITS.map((b) => (
+          {BENEFITS.map(({ icon: Icon, title, body }) => (
             <div
-              key={b.tag}
-              className="rounded-sm border border-ink-line bg-ink px-5 py-6 transition-colors hover:border-flare-dim"
+              key={title}
+              className="rounded-xl border border-white/10 bg-bg-2 px-5 py-6 shadow-card transition-colors hover:bg-bg-3"
             >
-              <span className="font-mono text-xs text-flare">{b.tag}</span>
-              <h3 className="mt-3 font-display text-xl font-semibold uppercase leading-tight text-paper">
-                {b.title}
+              <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-orange/15">
+                <Icon size={20} strokeWidth={2} className="text-orange" aria-hidden />
+              </span>
+              <h3 className="mt-4 font-display text-xl font-bold leading-tight text-fg-1">
+                {title}
               </h3>
-              <p className="mt-2 font-body text-sm leading-relaxed text-mist">{b.body}</p>
+              <p className="mt-2 font-body text-sm leading-relaxed text-fg-2">{body}</p>
             </div>
           ))}
         </div>

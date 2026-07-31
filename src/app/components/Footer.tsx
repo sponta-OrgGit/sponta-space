@@ -2,9 +2,9 @@ import { SITE } from "@/lib/constants";
 
 export function Footer() {
   return (
-    <footer className="border-t border-ink-line bg-ink-raised/40 px-5 py-8 sm:px-8">
-      <div className="mx-auto flex max-w-content flex-col gap-2 font-mono text-xs text-mist sm:flex-row sm:items-center sm:justify-between">
-        <p>
+    <footer className="border-t border-white/10 bg-bg-1 px-5 py-8 sm:px-8">
+      <div className="mx-auto flex max-w-content flex-col gap-3 font-body text-xs text-fg-3 sm:flex-row sm:items-center sm:justify-between">
+        <p className="font-mono">
           {SITE.companyName} · Y-tunnus {SITE.businessId}
         </p>
         <div className="flex flex-wrap gap-x-4 gap-y-1">

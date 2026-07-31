@@ -1,30 +1,53 @@
 @import "tailwindcss";
 
 /*
- * Design tokens for the Sponta venue-side landing page.
+ * Design tokens for the Sponta venue-side landing page — sourced from
+ * the Sponta brand design system (colors-brand / colors-neutrals /
+ * type-display / type-body / type-script-mono / radii / shadows).
  * Tailwind v4 is CSS-first — these @theme variables are the single
  * source of truth and auto-generate the matching utility classes
- * (bg-ink, text-flare, font-display, max-w-content, animate-fade-up, ...).
- * There is no tailwind.config.* file anymore — do not add one back.
+ * (bg-bg-0, text-orange, font-display, rounded-lg, shadow-glow-orange...).
+ * There is no tailwind.config.* file — do not add one back.
  */
 @theme {
-  --color-ink: #14161c; /* page background — deep blue-black, not flat black */
-  --color-ink-raised: #1d2029; /* card / input / footer background */
-  --color-ink-line: #2a2e3a; /* hairline borders on dark */
-  --color-paper: #f4f1e9; /* primary text on dark — warm off-white */
-  --color-mist: #8b90a0; /* secondary / muted text */
-  --color-flare: #ffb238; /* primary accent — sodium-light amber (CTA, live signal) */
-  --color-flare-dim: #8a611f;
-  --color-signal: #2fbfa6; /* secondary accent — data / trust sections */
-  --color-signal-dim: #1c5c52;
+  /* Matte neutrals — never pure flat #000, never navy/blue-tinted */
+  --color-bg-0: #060606; /* page base */
+  --color-bg-1: #0e0e0e; /* first elevation */
+  --color-bg-2: #161616; /* card surface */
+  --color-bg-3: #1f1f1f; /* raised / hover surface */
+  --color-bg-4: #2a2a2a; /* inputs, highest elevation */
 
-  --font-display: var(--font-oswald), sans-serif;
-  --font-body: var(--font-archivo), sans-serif;
-  --font-mono: var(--font-jetbrains-mono), monospace;
+  --color-fg-1: #f5f5f5; /* headings, icons */
+  --color-fg-2: #a0a0a0; /* body copy */
+  --color-fg-3: #8a8a8a; /* captions, tertiary */
+
+  --color-orange: #ff7a1a; /* primary — CTAs, brand glow */
+  --color-orange-dim: #d9791f;
+  --color-teal: #35dad4; /* accent — open/saved/links */
+  --color-teal-dim: #17afaa;
+  --color-gold: #f4b740; /* highlight — ratings, picks */
+  --color-red: #f4543c; /* danger */
+
+  --font-display: var(--font-bricolage), sans-serif; /* headings, 700-800, tight tracking */
+  --font-body: var(--font-hanken), sans-serif; /* UI + running copy */
+  --font-mono: var(--font-space-mono), monospace; /* metadata only: distance, price, time */
 
   --container-content: 42rem;
 
-  --animate-fade-up: fade-up 0.5s ease-out both;
+  /* Generously rounded throughout — nothing in Sponta has a sharp 90deg corner */
+  --radius-md: 1rem; /* 16px — cards' inner elements */
+  --radius-lg: 1.375rem; /* 22px — cards, sheets */
+  --radius-xl: 1.875rem; /* 30px — larger sheets */
+  --radius-pill: 999px; /* every button, chip, badge */
+
+  --shadow-card: 0 8px 28px rgba(0, 0, 0, 0.4);
+  --shadow-glow-orange: 0 0 40px rgba(255, 122, 26, 0.35);
+  --shadow-glow-teal: 0 0 40px rgba(53, 218, 212, 0.28);
+
+  --ease-out: cubic-bezier(0.16, 0.84, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --animate-fade-up: fade-up 0.5s var(--ease-out) both;
 }
 
 @keyframes fade-up {
@@ -58,8 +81,8 @@
   }
 
   body {
-    background-color: var(--color-ink);
-    color: var(--color-paper);
+    background-color: var(--color-bg-0);
+    color: var(--color-fg-1);
   }
 
   /* Visible keyboard focus everywhere — quiet by default, clear on :focus-visible */
@@ -68,28 +91,29 @@
   input:focus-visible,
   select:focus-visible,
   textarea:focus-visible {
-    outline: 2px solid var(--color-flare);
+    outline: 2px solid var(--color-orange);
     outline-offset: 2px;
-    border-radius: 2px;
+    border-radius: 4px;
   }
 }
 
 @layer components {
-  .eyebrow {
-    font-family: var(--font-mono);
+  /* Overline label: Hanken Grotesk bold uppercase +tracking — NOT mono.
+     Mono is reserved for actual metadata (numbers), per the type system. */
+  .overline {
+    font-family: var(--font-body);
+    font-weight: 700;
     font-size: 0.75rem;
-    letter-spacing: 0.18em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--color-mist);
+    color: var(--color-fg-3);
   }
 
-  .eyebrow::before {
-    content: '[ ';
-    color: var(--color-flare);
+  /* Signature press interaction: quick scale-down on tap */
+  .pressable {
+    transition: transform 150ms var(--ease-out);
   }
-
-  .eyebrow::after {
-    content: ' ]';
-    color: var(--color-flare);
+  .pressable:active {
+    transform: scale(0.96);
   }
 }

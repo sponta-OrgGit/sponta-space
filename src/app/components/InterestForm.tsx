@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { ArrowRight } from "lucide-react";
 import { SectionLabel } from "./SectionLabel";
 import { SITE } from "@/lib/constants";
 
@@ -63,10 +64,10 @@ export function InterestForm() {
       <section id="ilmoittaudu" className="scroll-mt-8 px-5 py-12 sm:px-8 sm:py-16">
         <div className="mx-auto max-w-content">
           <SectionLabel>Liity mukaan</SectionLabel>
-          <p className="font-display text-3xl font-bold uppercase text-flare sm:text-4xl">
+          <p className="font-display text-3xl font-bold text-orange sm:text-4xl">
             Kiitos — olemme yhteydessä.
           </p>
-          <p className="mt-3 max-w-md font-body text-mist">
+          <p className="mt-3 max-w-md font-body text-fg-2">
             Vahvistamme tiedot ja lähetämme kirjautumislinkin, kun paikkasi on valmis liittymään.
           </p>
         </div>
@@ -78,11 +79,11 @@ export function InterestForm() {
     <section id="ilmoittaudu" className="scroll-mt-8 px-5 py-12 sm:px-8 sm:py-16">
       <div className="mx-auto max-w-content">
         <SectionLabel>Liity mukaan</SectionLabel>
-        <h2 className="font-display text-3xl font-bold uppercase leading-tight text-paper sm:text-4xl">
+        <h2 className="font-display text-3xl font-bold leading-tight text-fg-1 sm:text-4xl">
           Ilmoita kiinnostuksesi
         </h2>
-        <p className="mt-3 max-w-md font-body text-mist">
-          Alle 60 sekuntia. Vahvistamme paikan ja lähetämme kutsulinkin sähköpostiisi.
+        <p className="mt-3 max-w-md font-body text-fg-2">
+          Alle 60 sekuntia. Vahvistamme paikan ja lähetämme kutsun sähköpostiisi.
         </p>
 
         <form onSubmit={handleSubmit} className="mt-8 space-y-5" noValidate>
@@ -113,15 +114,15 @@ export function InterestForm() {
           />
 
           <div>
-            <label htmlFor="lounastaja" className="mb-2 block font-body text-sm text-mist">
+            <label htmlFor="lounastaja" className="mb-2 block font-body text-sm text-fg-2">
               Julkaisetko lounaslistaasi jo jossain, esim. Lounastajassa?{" "}
-              <span className="text-mist/70">(valinnainen)</span>
+              <span className="text-fg-3">(valinnainen)</span>
             </label>
             <select
               id="lounastaja"
               value={values.lounastaja}
               onChange={(e) => update("lounastaja", e.target.value)}
-              className="w-full rounded-sm border border-ink-line bg-ink-raised px-4 py-3 font-body text-paper focus:border-flare"
+              className="w-full rounded-xl border border-white/10 bg-bg-3 px-4 py-3 font-body text-fg-1 focus:border-orange"
             >
               {LOUNASTAJA_OPTIONS.map((opt) => (
                 <option key={opt} value={opt}>
@@ -134,13 +135,14 @@ export function InterestForm() {
           <button
             type="submit"
             disabled={status === "sending"}
-            className="w-full rounded-sm bg-flare px-6 py-4 font-display text-lg font-bold uppercase tracking-wide text-ink transition-opacity hover:opacity-90 disabled:opacity-60 sm:w-auto"
+            className="pressable inline-flex w-full items-center justify-center gap-2 rounded-pill bg-orange px-7 py-4 font-display text-lg font-bold text-bg-0 shadow-glow-orange transition-opacity hover:opacity-90 disabled:opacity-60 sm:w-auto"
           >
             {status === "sending" ? "Lähetetään…" : "Lähetä"}
+            {status !== "sending" && <ArrowRight size={20} strokeWidth={2.5} aria-hidden />}
           </button>
 
           {status === "error" && (
-            <p className="font-body text-sm text-signal">
+            <p className="font-body text-sm text-red">
               Lähetys ei onnistunut juuri nyt.{" "}
               <a href={mailtoFallback()} className="underline underline-offset-2">
                 Lähetä tiedot sähköpostilla
@@ -149,10 +151,10 @@ export function InterestForm() {
             </p>
           )}
 
-          <p className="font-body text-xs leading-relaxed text-mist/80">
+          <p className="font-body text-xs leading-relaxed text-fg-3">
             Rekisterinpitäjä on {SITE.companyName} (Y-tunnus {SITE.businessId}). Tietoja
             käytetään ainoastaan yhteydenottoon Sponta-yhteistyöstä. Voit pyytää tietojen
-            poistamista milloin tahansa osoitteesta{" "}
+            poistamista milloin vain osoitteesta{" "}
             <a href={`mailto:${SITE.contactEmail}`} className="underline underline-offset-2">
               {SITE.contactEmail}
             </a>
@@ -183,9 +185,9 @@ function Field({
 }) {
   return (
     <div>
-      <label htmlFor={htmlFor} className="mb-2 block font-body text-sm text-mist">
+      <label htmlFor={htmlFor} className="mb-2 block font-body text-sm text-fg-2">
         {label}
-        {required && <span className="text-flare"> *</span>}
+        {required && <span className="text-orange"> *</span>}
       </label>
       <input
         id={htmlFor}
@@ -195,7 +197,7 @@ function Field({
         autoComplete={autoComplete}
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="w-full rounded-sm border border-ink-line bg-ink-raised px-4 py-3 font-body text-paper placeholder:text-mist/50 focus:border-flare"
+        className="w-full rounded-xl border border-white/10 bg-bg-3 px-4 py-3 font-body text-fg-1 placeholder:text-fg-3 focus:border-orange"
       />
     </div>
   );
