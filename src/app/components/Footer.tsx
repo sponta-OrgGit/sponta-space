@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { SITE } from "@/lib/constants";
 
 export function Footer() {
@@ -14,6 +15,9 @@ export function Footer() {
           <a href="#ilmoittaudu" className="underline-offset-2 hover:underline">
             Ilmoita kiinnostuksesi
           </a>
+          <Link href="/privacy" className="underline-offset-2 hover:underline">
+            Privacy Policy
+          </Link>
         </div>
       </div>
     </footer>
